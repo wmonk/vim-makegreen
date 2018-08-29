@@ -24,9 +24,9 @@ function MakeGreen(...) "{{{1
   let arg_count = a:0
 
   if exists("g:makegreen_stay_on_file") && g:makegreen_stay_on_file
-    let make_command = "make!"
+    let make_command = "Make!"
   else
-    let make_command = "make"
+    let make_command = "Make"
   endif
 
   silent! w " TODO: configuration option?
